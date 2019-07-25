@@ -1,0 +1,15 @@
+strong {
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 2rem;
+  
+    /* Small devices (tablets, 768px and up) */
+    
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    strong {
+        font-size: 5rem;
+    }
+    
+  }
