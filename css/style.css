@@ -1,21 +1,31 @@
+
+
 strong {
     /* Extra small devices (phones, less than 768px) */
     font-size: 2rem;
-  
-    /* Small devices (tablets, 768px and up) */
-    
-  }
+}
+.sign-up{
+  width: 40%;
+}
+.sponsor-part, .special-edition{
+  width: 50%;
+}
 
-  /* Medium devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
+.logo{
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
     strong {
         font-size: 5rem;
     }
-    
-  }
-.icon-logo{
-  background-image: url("https://g.newsweek.com/www/images/logo-n1.svg");
-    display: block;
-    width: 29px;
-    height: 28px;
+    .sign-up{
+      width: 90%;
+    }
+    .sponsor-part, .special-edition{
+      width: 100%;
+    }
 }
+
