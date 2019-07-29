@@ -27,5 +27,8 @@ strong {
     .sponsor-part, .special-edition{
       width: 100%;
     }
+    .all-features{
+      margin-top: -1%;
+    }
 }
 
