@@ -4,39 +4,33 @@ strong {
     /* Extra small devices (phones, less than 768px) */
     font-size: 2rem;
 }
- .sign-up{
-  width: 100%;
-} 
-.sponsor-part, .special-edition{
-  width: 100%;
-}
 
 .logo{
   width: 2rem;
   height: 2rem;
 }
-
-@media (min-width:576px){
-  .sign-up{
-    max-width: 350px;
-  } 
+.icon-slideshow{
+  width: 4rem;
+  height: 3rem;
+  background-image:  url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: .4rem;
+  line-height: 2.5rem;
 }
-
-@media (min-width:768px){
+@media (min-width: 576px) and (max-width: 991px){
+  .sponsor-part, .special-edition{
+      width: 50%;
+  }
   .sign-up{
-    width: 40%;
-    
-  } 
+    width: 45%;
+  }
 }
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     strong {
         font-size: 5rem;
     }
-     .sign-up{
-      width: 95%;
-    } 
     .all-features{
       margin-top: -1%;
     }
