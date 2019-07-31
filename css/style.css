@@ -1,10 +1,14 @@
 
 /* Extra small devices (phones, less than 768px) */
 .main-header {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .main-header a {
   font-size: .6rem;
+}
+.icon-search{
+  width: 2rem;
+  height: auto;
 }
 .logo{
   width: 2rem;
@@ -89,6 +93,7 @@
 .footer-editions{
   justify-content: start;
 }
+
 /* Small devices (desktops, 576px and up) */
 @media (min-width: 576px){
   .sponsor-part, .special-edition{
@@ -146,42 +151,80 @@
   }    
   .info-list li, .editions-list li{
     border-right: 1px solid #b3bbc2;
+  }
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .main-header{
-    font-size: 4rem;
-  }
-    .sponsor-part, .special-edition{
-        width: 100%;
-    }
-    .sign-up{
-      width: 90%;
-      height: auto;
-    }
-    
-    .all-features{
-      margin-top: -1%;
-    }
-    .suscribe-text{
-      width: 55%;
-      height: auto;
 
-    }
-    .suscribe{
-      width: auto;
-      height: 90%;
-    }
-    .newsletter-part img{
-      height: auto;
-      width:50%;
-    }
-    .footer-editions{
-      justify-content: end;
-    }
+  .main-header{
+    font-size: 5rem;
+  }
+
+  .main-header a {
+    font-size: 1.2rem;
+  }
+
+  .nav-item{
+    border-right: 1px solid #b3bbc2;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .nav-item:nth-child(9), .nav-item:last-child{
+    border-right: none;
+  }
+  
+  .search-input{
+    height: 1.5rem;
+    transition: width 0.4s ease-in-out;
+    width: 4rem;
+    border:none;
+  }
+  
+  .search-input:focus{
+    width: 7rem;
+    outline:none;
+  }
+
+  .search-input:focus::placeholder{
+    opacity: 0;
+  }
+
+  .sponsor-part, .special-edition{
+      width: 100%;
+  }
+
+  .sign-up{
+    width: 90%;
+    height: auto;
+  }
+  
+  .all-features{
+    margin-top: -1%;
+  }
+
+  .suscribe-text{
+    width: 55%;
+    height: auto;
+
+  }
+
+  .suscribe{
+    width: auto;
+    height: 90%;
+  }
+
+  .newsletter-part img{
+    height: auto;
+    width:50%;
+  }
+
+  .footer-editions{
+    justify-content: end;
+  }
 
 }
+
 /* Extra Large devices (desktops, 992px and up) */
 @media (min-width: 1200px) {
   .suscribe-text{
