@@ -1,10 +1,19 @@
 
 /* Extra small devices (phones, less than 768px) */
-.main-header {
-  font-size: 1.5rem;
+.header{
+  justify-content: start;
 }
-.main-header a {
-  font-size: .6rem;
+.main-header {
+  font-size: 1.3rem;
+}
+.navbar-toggler-icon{
+  background-image: url("../images/hamburger_button.png");
+}
+.header-text a{
+  font-size: .7rem;
+}
+.bg-color01{
+  background-color: #C2D4D7;
 }
 .icon-search{
   width: 2rem;
@@ -32,14 +41,14 @@
   top: 2rem;
 }
 
-.suscribe, .newsletter-part{
+.subscribe, .newsletter-part{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.suscribe-img{
+.subscribe-img{
   flex: none;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -103,7 +112,7 @@
     width: 45%;
     height: auto;
   }
-  .main-header a {
+  .header-text a{
     font-size: 1rem;
   }
 }
@@ -113,10 +122,7 @@
   .main-header{
     font-size: 2rem;
   }
-  .main-header a {
-    font-size: 1rem;
-  }
-  .suscribe{
+  .subscribe{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -134,7 +140,7 @@
     padding-top: 0; 
     margin-left: 0;
   }
-  .suscribe-text{
+  .subscribe-text{
     width: 60%;
     height: auto;
   }
@@ -143,7 +149,7 @@
     height: 30%;
     
   }
-  .suscribe-img{
+  .subscribe-img{
     flex: none;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -155,18 +161,20 @@
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  .header{
+    justify-content: center;
+  }
   .main-header{
     font-size: 5rem;
+    justify-self: center;
   }
 
-  .main-header a {
+  .header-text a{
     font-size: 1.2rem;
   }
 
   .nav-item{
     border-right: 1px solid #b3bbc2;
-    font-weight: bold;
     font-size: 1.2rem;
   }
 
@@ -203,13 +211,13 @@
     margin-top: -1%;
   }
 
-  .suscribe-text{
+  .subscribe-text{
     width: 55%;
     height: auto;
 
   }
 
-  .suscribe{
+  .subscribe{
     width: auto;
     height: 90%;
   }
@@ -227,7 +235,7 @@
 
 /* Extra Large devices (desktops, 992px and up) */
 @media (min-width: 1200px) {
-  .suscribe-text{
+  .subscribe-text{
     width: 60%;
     height: auto;
   }
