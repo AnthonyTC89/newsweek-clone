@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="utf-8">
@@ -11,173 +11,1381 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header class="container">
-        <div class="header">
-            <p>Thu, Jul 25, 2019</p>
-            <h1>newsweek</h1>
-            <a href="#">SIGN IN</a>
-            <a href="#">SUSCRIBE</a>
-        </div>
-        <nav>
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">U.S</a>
-                <a class="nav-item nav-link" href="#">World</a>
-                <a class="nav-item nav-link" href="#">Business</a>
-                <a class="nav-item nav-link" href="#">Tech & Science</a>
-                <a class="nav-item nav-link" href="#">Culture</a>
-                <a class="nav-item nav-link" href="#">Sports</a>
-                <a class="nav-item nav-link" href="#">Health</a>
-                <a class="nav-item nav-link" href="#">Opinion</a>
-                <a class="nav-item nav-link" href="#">Vantage</a>
-                <a class="nav-item nav-link" href="#">Search</a>
+    <header class="container w-100">
+        <div class="row bg-danger text-white">
+            <div class="col-12 col-lg-3 d-flex align-items-end">
+                <span class="ml-sm-4 mb-2 d-none d-lg-block">Thu, Jul 25, 2019</span>
             </div>
+            <div class="col-4 col-lg-6 mb-2 header d-flex align-items-end">
+                <h1 class="main-header font-weight-bold mb-0 mx-auto">Newsweek</h1>
+            </div>
+            <div class="header-text col-8 col-lg-3 mb-2 px-0 font-weight-bold 
+                d-flex justify-content-end align-items-end">
+                <a href="#" class="text-white px-2">SIGN IN</a>
+                <a href="#" class="text-danger bg-white px-1 mr-lg-3">SUBSCRIBE ></a>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none pb-0" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="navbar navbar-light navbar-expand-lg ">
+            <div class="collapse navbar-collapse border-bottom" id="navbarTogglerDemo01">
+                <div class="navbar-nav text-dark mb-lg-2 d-flex align-items-end">
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">U.S</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">World</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Business</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Tech & Science</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Culture</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Sports</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Health</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Opinion</a>
+                    <a class="nav-item nav-link text-dark font-weight-bold" href="#">Vantage</a>
+                    <div>
+                        <input title="Enter the terms you wish to search for." placeholder="Search" type="text"
+                            class="search-input border-0 nav-item mt-2">
+                        <img alt="icon-search" class="icon-search" src="images/icon-search.png">
+                    </div>
+                </div>
+            </div>
+
         </nav>
     </header>
-    
     <main class="container main">
-        <section class="row main-part">
-            <div class="col-4 featured-stories" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+        <section class="row main-part mb-4">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4 order-6 order-md-1 featured-stories">
+                <h6 class="text-secondary">FEATURED STORIES</h6>
+                <article>
+                    <div class="img-article d-flex align-items-end font-weight-bold">
+                        <a href="#" class="position-absolute bg-light text-danger p-2 ">ANALYSIS</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=1">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="img-article d-flex align-items-end font-weight-bold">
+                        <a href="#" class="position-absolute bg-light text-danger p-2">ANALYSIS</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=2">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="img-article d-flex align-items-end font-weight-bold">
+                        <a href="#" class="position-absolute bg-light text-danger p-2">U.S.</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=3">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="img-article d-flex align-items-end font-weight-bold">
+                        <a href="#" class="position-absolute bg-light text-danger p-2">EDITOR'S NOTE</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=4">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="img-article d-flex align-items-end font-weight-bold">
+                        <a href="#" class="position-absolute bg-light text-primary p-2">SURVEY</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=5">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article border p-md-3">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </article>
+                <article class="my-5">
+                    <div class="img-article d-flex align-items-end font-weight-bold">
+                        <a href="#" class="position-absolute bg-light text-primary p-2">SPONSORED INSIGHT</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=6">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article border p-md-3">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </article>
             </div>
-            <div class="col-5 top-more-stories" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
+            <div class="col-12 col-sm-12 col-md-7 col-lg-5 order-1 order-md-6 top-more-stories">
+                <div class="top-story">
+                    <h6 class="text-secondary">TOP STORY</h6>
+                    <article>
+                        <div class="img-article d-flex align-items-end">
+                            <a href="#" class="position-absolute bg-light text-danger p-2">U.S.</a>
+                            <a href="#">
+                                <picture>
+                                    <img alt="img-article" class="main-img-article w-100"
+                                        src="https://placeimg.com/450/310/any?p=1">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="text-article">
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                                necessitatibus
+                                ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                                illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                        </div>
+                    </article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
                         illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
+                <div class="culture-travel bg-light container-fluid">
+                    <h6 class="text-secondary pt-2">CULTURE & TRAVEL</h6>
+                    <div class="row">
+                        <article class="col-12 col-md-6 pl-md-0 pb-md-3 mb-4">
+                            <div class="img-article ">
+                                <a href="#">
+                                    <picture>
+                                        <img alt="img-article" class="main-img-article w-100"
+                                            src="https://placeimg.com/205/162/any?p=1">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="text-article p-md-2">
+                                <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                                    necessitatibus
+                                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                                <a href="#" class="text-dark bg-color01 px-md-2">Lorem ipsum dolor</a>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6 pr-md-0 pb-md-3">
+                            <div class="img-article">
+
+                                <a href="#">
+                                    <picture>
+                                        <img alt="img-article" class="main-img-article w-100"
+                                            src="https://placeimg.com/205/162/any?p=2">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="text-article p-md-2">
+                                <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                                    necessitatibus
+                                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                                <a href="#" class="text-dark bg-color01 px-md-2">Lorem ipsum dolor</a>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6 pl-md-0 pb-md-3">
+                            <div class="img-article">
+                                <a href="#">
+                                    <picture>
+                                        <img alt="img-article" class="main-img-article w-100"
+                                            src="https://placeimg.com/205/162/any?p=3">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="text-article p-md-2">
+                                <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                                    necessitatibus
+                                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                                <a href="#" class="text-dark bg-color01 px-md-2">Lorem ipsum dolor</a>
+                            </div>
+                        </article>
+                        <article class="col-12 col-md-6 pr-md-0 pb-md-3">
+                            <div class="img-article">
+                                <a href="#">
+                                    <picture>
+                                        <img alt="img-article" class="main-img-article w-100"
+                                            src="https://placeimg.com/205/162/any?p=4">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="text-article p-md-2">
+                                <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                                    necessitatibus
+                                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                                <a href="#" class="text-dark bg-color01 px-md-2">Lorem ipsum dolor</a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+                <div class="more-stories mt-3">
+                    <h6 class="text-secondary">MORE STORIES</h6>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=1">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=2">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=3">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=4">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=5">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=6">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=7">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                    <article class="border-top py-3">
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=8">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor</b> </a></h6>
+                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus
+                            facilis officiis, nulla inventore totam porro architecto omnis earum illum ab cum, beatae
+                            soluta ipsa ad veritatis, deserunt quibusdam deleniti!</p>
+                    </article>
+                </div>
             </div>
-            <div class="col-3 opinion-lastet-news">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 order-12 opinion-latest-news">
+                <div class="opinion-part ">
+                    <h6 class="text-secondary">OPINION</h6>
+                    <article class="py-1">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 rounded-circle"
+                                    src="https://placeimg.com/63/63/any?p=1">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur</b> </a>
+                        <p>Lorem ipsum dolor </p>
+                    </article>
+                    <article class="border-top py-2">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="float-left mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 rounded-circle"
+                                    src="https://placeimg.com/63/63/any?p=2">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur</b> </a></h6>
+                        <p>Lorem ipsum dolor </p>
+                    </article>
+                    <article class="border-top py-2">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="float-left mr-3 ">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 rounded-circle"
+                                    src="https://placeimg.com/63/63/any?p=3">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur</b> </a></h6>
+                        <p>Lorem ipsum dolor </p>
+                    </article>
+                    <article class="border-top py-2">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="float-left mr-3 ">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 rounded-circle"
+                                    src="https://placeimg.com/63/63/any?p=4">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur</b> </a></h6>
+                        <p>Lorem ipsum dolor </p>
+                    </article>
+                    <article class="border-top py-2">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="float-left mr-3 ">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 rounded-circle"
+                                    src="https://placeimg.com/63/63/any?p=6">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur</b> </a></h6>
+                        <p>Lorem ipsum dolor </p>
+                    </article>
+                    <article class="border-top py-2">
+                        <a href="#" class="float-left mr-3 ">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 rounded-circle"
+                                    src="https://placeimg.com/63/63/any?p=7">
+                            </picture>
+                        </a>
+                        <h6><a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur</b> </a></h6>
+                        <p>Lorem ipsum dolor </p>
+                    </article>
+                </div>
+                <div class="latest-news-part my-4">
+                    <h6 class="text-secondary">LATEST NEWS</h6>
+                    <article class="py-1 d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class=" mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=1">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                    <article class="py-2 border-top d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=2">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                    <article class="py-2 border-top d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=3">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                    <article class="py-2 border-top d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=4">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                    <article class="py-2 border-top d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=5">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                    <article class="py-2 border-top d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=6">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                    <article class="py-2 border-top d-flex align-items-start">
+                        <h2 class="d-none">HEADING</h2>
+                        <a href="#" class="mr-3">
+                            <picture>
+                                <img alt="img-article" class="main-img-article"
+                                    src="https://placeimg.com/120/80/any?p=7">
+                            </picture>
+                        </a>
+                        <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</b> </a>
+                    </article>
+                </div>
+                <div class="sponsor-part mx-auto">
+                    <div class="img-article d-flex align-items-end">
+                        <a href="#" class="position-absolute bg-light text-primary p-2">SPONSORED INSIGHT</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=1">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article border p-md-3">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati
+                            dolores nesciunt, illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </div>
+                <div class="sign-up bg-light border mw-50 my-4 mx-auto p-4">
+                    <div class="icon-logo d-flex align-items-center w-75">
+                        <img alt="logo-icon" src="images/logo-icon.png" class="logo mr-2">
+                        <span><b>SING UP FOR OUR NEWSLETTER</b></span>
+                    </div>
+                    <a href="#" class="font-weight-bold text-white bg-secondary d-inline-block p-2 my-2">SIGN UP ></a>
+                    <br>
+                    <a href="#" class="d-inline-block font-weight-bold text-dark">Update your preferences »</a>
+                </div>
+                <div class="special-edition mx-auto">
+                    <div class="img-article d-flex align-items-end">
+                        <a href="#" class="position-absolute bg-light text-primary p-2">SPECIAL EDITION</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/350/265/any?p=2">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="text-article border p-md-3">
+                        <h3><a href="#" class="text-dark">Lorem ipsum dolor sit amet</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus
+                            ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                            illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="row sub-main-part">
-            <div class="col-3 all-features" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+        <section class="row sub-main-part mb-4">
+            <h2 class="d-none">HEADING</h2>
+            <div class="col-12 col-md-3 head-features"></div>
+            <div class="col-12 col-md-9 d-flex justify-content-center align-items-center pb-2 border-bottom">
+                <img alt="logo-icon" src="images/logo-icon.png" class="logo mr-2">
+                <span><b>IN THE MAGAZINE</b></span>
             </div>
-            <div class="col-9 maganine">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+            <div class="col-12 col-md-3 order-first order-md-0 all-features ">
+                <article class="font-weight-bold">
+                    <div class="img-article d-flex align-items-end">
+                        <a href="#" class="position-absolute bg-light text-danger p-2">AUGUST 02 ISSUE</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100 h-100"
+                                    src="https://placeimg.com/600/600/any?p=2">
+                            </picture>
+                        </a>
+                    </div>
+                    <a href="#" class="text-center d-block py-2 bg-light">
+                        <h5 class="text-dark">SEE ALL FEATURES ></h5>
+                    </a>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <a href="#" class="d-block my-3">
+                        <img alt="img-article" class="main-img-article w-100"
+                            src="https://placeimg.com/500/400/any?p=1">
+                    </a>
+                    <span class="features text-white bg-danger py-1 px-2">FEATURES</span>
+                    <a href="#" class="text-danger">WORLD</a>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <a href="#" class="d-block my-3">
+                        <img alt="img-article" class="main-img-article w-100"
+                            src="https://placeimg.com/500/400/any?p=8">
+                    </a>
+                    <span class="features text-white bg-danger py-1 px-2">FEATURES</span>
+                    <a href="#" class="text-danger">POLITICS</a>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <a href="#" class="d-block my-3">
+                        <img alt="img-article" class="main-img-article w-100"
+                            src="https://placeimg.com/500/400/any?p=9">
+                    </a>
+                    <span class="features text-white bg-danger py-1 px-2">FEATURES</span>
+                    <a href="#" class="text-danger">WORLD</a>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <a href="#" class="d-block my-3">
+                        <img alt="img-article" class="main-img-article w-100"
+                            src="https://placeimg.com/500/400/any?p=4">
+                    </a>
+                    <span class="features text-white bg-danger py-1 px-2">FEATURES</span>
+                    <a href="#" class="text-danger">CULTURE</a>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <a href="#" class="d-block my-3">
+                        <img alt="img-article" class="main-img-article w-100"
+                            src="https://placeimg.com/500/400/any?p=5">
+                    </a>
+                    <span class="features text-white bg-danger py-1 px-2">FEATURES</span>
+                    <a href="#" class="text-danger">CULTURE</a>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <a href="#" class="d-block my-3">
+                        <img alt="img-article" class="main-img-article w-100"
+                            src="https://placeimg.com/500/400/any?p=6">
+                    </a>
+                    <span class="features text-white bg-danger py-1 px-2">FEATURES</span>
+                    <a href="#" class="text-danger">CULTURE</a>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
+            </div>
+            <div class="col-12 col-md-3 maganine">
+                <article class="font-weight-bold">
+                    <h2 class="d-none">HEADING</h2>
+                    <div class="img-article d-flex align-items-end my-3">
+                        <a href="#" class="position-absolute bg-danger text-white p-2">BIG SHOTS</a>
+                        <a href="#">
+                            <picture>
+                                <img alt="img-article" class="main-img-article w-100"
+                                    src="https://placeimg.com/500/340/any?p=4">
+                            </picture>
+                        </a>
+                    </div>
+                    <p class="d-block my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </article>
             </div>
         </section>
-        <section class="row editor-picks">
-            <h2 class="header col-12">editor-picks</h2>
-            <article class="col-3 editor-pick" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
-            </article>
-            <article class="col-3 editor-pick" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
+        <section class="row editor-picks mb-4 ">
+            <h2 class="d-none">HEADING</h2>
+            <div class="col-12 d-flex justify-content-center align-items-center pb-2 border-bottom">
+                <img alt="logo-icon" src="images/logo-icon.png" class="logo mr-2">
+                <span><b>EDITOR'S PICK</b></span>
+            </div>
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">NEWS</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=5">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
                         illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
             </article>
-            <article class="col-3 editor-pick" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold  my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">U.S.</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=6">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
                         illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
             </article>
-            <article class="col-3 editor-pick" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">U.S.</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=7">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
                         illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
+            </article>
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">U.S.</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=8">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
+            </article>
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">NEWS</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=9">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
+            </article>
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">U.S.</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=10">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
+            </article>
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">TECH & SCIENCE</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=11">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
+            </article>
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="position-absolute bg-light text-danger p-2">WORLD</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/350/265/any?p=12">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                        necessitatibus
+                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt,
+                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+                </div>
             </article>
         </section>
-        <section class="row featured-slideshows">
-            <h2 class="header col-12">featured-slideshows</h2>
-            <article class="col-4 featured-slideshow" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+        <section class="row featured-slideshows border-bottom mb-4">
+            <h2 class="d-none">heading</h2>
+            <div class="col-12 d-flex justify-content-center align-items-center pb-2 border-bottom">
+                <img alt="logo-icon" src="images/logo-icon.png" class="logo mr-2">
+                <span><b>FEATURED SLIDESHOWS</b></span>
+            </div>
+            <article class="col-12 col-md-4 mx-auto">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="icon-slideshow position-absolute bg-light text-danger text-center p-2">5</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=13">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+
+                </div>
             </article>
-            <article class="col-4 featured-slideshow" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+            <article class="col-12 col-md-4 ">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="icon-slideshow position-absolute bg-light text-danger text-center p-2">10</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=14">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+
+                </div>
             </article>
-            <article class="col-4 featured-slideshow" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+            <article class="col-12 col-md-4 ">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="icon-slideshow position-absolute bg-light text-danger text-center p-2">25</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=15">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+
+                </div>
+            </article>
+            <article class="col-12 col-md-4 ">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="icon-slideshow position-absolute bg-light text-danger text-center p-2">1</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=16">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+
+                </div>
+            </article>
+            <article class="col-12 col-md-4 ">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="icon-slideshow position-absolute bg-light text-danger text-center p-2">99</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=17">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+
+                </div>
+            </article>
+            <article class="col-12 col-md-4 ">
+                <div class="img-article d-flex align-items-end font-weight-bold my-3">
+                    <a href="#" class="icon-slideshow position-absolute bg-light text-danger text-center p-2">12</a>
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=18">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
             </article>
         </section>
-        <section class="row us-part">
-            <h2 class="header col-12">U.S.</h2>
-            <article class="col-4 us-article" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+        <section class="row picks pb-4 mb-4 border-bottom">
+            <div class="col-12">
+                <h5><a href="#" class="text-danger font-weight-bold">U.S.</a></h5>
+            </div>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=19">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
             </article>
-            <article class="col-4 us-article" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=20">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
             </article>
-            <article class="col-1 us-article" >
-                <p>Lorem ipsum dolor sit amet </p>
+            <div class="col-12 col-md-4 my-2">
+                <article class="py-1 d-flex align-items-start">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=6">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=7">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=8">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+            </div>
+            <div class="col-12 border-top mt-4 pt-2">
+                <h5><a href="#" class="text-danger font-weight-bold">World</a></h5>
+            </div>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=20">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
             </article>
-            <article class="col-1 us-article" >
-                <p>Lorem ipsum dolor sit amet </p>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=21">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
             </article>
-            <article class="col-1 us-article" >
-                <p>Lorem ipsum dolor sit amet </p>
+            <div class="col-12 col-md-4 my-2">
+                <article class="py-1 d-flex align-items-start">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=7">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=8">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=9">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+            </div>
+            <div class="col-12 border-top mt-4 pt-2">
+                <h5><a href="#" class="text-danger font-weight-bold">Business</a></h5>
+            </div>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=22">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
             </article>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=23">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <div class="col-12 col-md-4 my-2">
+                <article class="py-1 d-flex align-items-start">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=10">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=11">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=12">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+            </div>
+            <div class="col-12 border-top mt-4 pt-2">
+                <h5><a href="#" class="text-danger font-weight-bold">Tech & Science</a></h5>
+            </div>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=24">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=25">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <div class="col-12 col-md-4 my-2">
+                <article class="py-1 d-flex align-items-start">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=13">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=14">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=15">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+            </div>
+            <div class="col-12 border-top mt-4 pt-2">
+                <h5><a href="#" class="text-danger font-weight-bold">Culture</a></h5>
+            </div>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=26">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=27">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <div class="col-12 col-md-4 my-2">
+                <article class="py-1 d-flex align-items-start">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=16">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=17">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=18">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+            </div>
+            <div class="col-12 border-top mt-4 pt-2">
+                <h5><a href="#" class="text-danger font-weight-bold">Sports</a></h5>
+            </div>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=28">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <article class="col-12 col-md-4 my-2">
+                <div class="img-article my-1">
+                    <a href="#">
+                        <picture>
+                            <img alt="img-article" class="main-img-article w-100"
+                                src="https://placeimg.com/400/300/any?p=29">
+                        </picture>
+                    </a>
+                </div>
+                <div class="text-article">
+                    <h5><a href="#" class="text-dark font-weight-bold">Lorem ipsum dolor sit amet</a></h5>
+                </div>
+            </article>
+            <div class="col-12 col-md-4 my-2">
+                <article class="py-1 d-flex align-items-start">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=19">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=20">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+                <article class="py-1 d-flex align-items-start border-top">
+                    <h2 class="d-none">heading</h2>
+                    <a href="#" class=" mr-3">
+                        <picture>
+                            <img alt="img-article" class="main-img-article" src="https://placeimg.com/120/80/any?p=21">
+                        </picture>
+                    </a>
+                    <a href="#" class="text-dark"><b>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</b> </a>
+                </article>
+            </div>
         </section>
-        <section class="row suscribe-part">
-            <article class="col-8 suscribe" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+        <section class="row subscribe-part pt-4">
+            <h2 class="d-none">heading</h2>
+            <article class="col-12 col-lg-8 mb-5">
+                <h6 class="text-danger font-weight-bold">SUBSCRIBE</h6>
+                <div class="subscribe d-flex flex-column flex-md-row justify-content-center 
+                    justify-content-md-end align-items-center
+                    text-center text-md-start bg-light pt-md-0 ml-md-0 pb-2">
+                    <div class="subscribe-img d-inline-block position-relative">
+                        <img alt="july-26-2019-cover" src="images/july-26-2019-cover.jpg" class="cover-back">
+                        <img alt="august-2-2019-cover" src="images/august-2-2019-cover.jpg"
+                            class="cover-front position-absolute">
+                    </div>
+                    <div class="subscribe-text">
+                        <h5 class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore,
+                            necessitatibus ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores
+                            nesciunt, illo dignissimos eligendi.</p>
+                        <a href="#" class="text-white bg-danger font-weight-bold px-3 py-1">SUBSCRIBE ></a>
+                    </div>
+                </div>
+
             </article>
-            <article class="col-4 newsletter" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                    ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                    illo dignissimos eligendi. Sapiente, iure nobis!</p>
+            <article class="col-12 col-lg-4">
+                <h6 class="text-danger font-weight-bold">NEWSLETTER</h6>
+                <div class="newsletter-part d-flex flex-column flex-md-row justify-content-center 
+                    justify-content-md-start align-items-center text-center text-md-start border 
+                    pt-md-0 ml-md-0 pb-1">
+                    <img class="" alt="newsletter-img" src="images/newsletter-img.png">
+                    <div class="my-auto pl-md-3">
+                        <h5 class="font-weight-bold py-2">Lorem ipsum dolor </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href="#" class="text-white bg-danger font-weight-bold px-3 py-1">SIGN UP ></a>
+                    </div>
+                </div>
             </article>
         </section>
     </main>
-    <footer class="footer container">
-        <section class="row copyright-social">
-            <div class="col-3 footer-name">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
+    <footer class="footer container border-top pt-2 mt-4">
+        <section class="row copyright-social d-flex justify-content-between align-items-end 
+            mx-auto border-bottom">
+            <div>
+                <a href="#">
+                    <h2 class="font-weight-bold text-danger d-inline-block">Newsweek</h2>
+                </a>
+                <span class="copyright text-secondary ml-3">© 2019 NEWSWEEK</span>
             </div>
-            <div class="col-6 footer-copyright">
-                <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="col-3 footer-social">
-                <p>Lorem ipsum dolor</p>
-            </div>
+            <ul class="footer-social d-flex align-items-end mb-1">
+                <li class="d-inline">
+                    <a href="#"> <img alt="img-social" class="social-icon" src="images/icon-facebook.png"></a>
+                </li>
+                <li class="d-inline">
+                    <a href="#"> <img alt="img-social" class="social-icon" src="images/icon-twitter.png"></a>
+                </li>
+                <li class="d-inline">
+                    <a href="#"> <img alt="img-social" class="social-icon" src="images/icon-instagram.png"></a>
+                </li>
+                <li class="d-inline">
+                    <a href="#"> <img alt="img-social" class="social-icon" src="images/icon-tumblr.png"></a>
+                </li>
+                <li class="d-inline">
+                    <a href="#"> <img alt="img-social" class="social-icon" src="images/icon-linkedin.png"></a>
+                </li>
+            </ul>
         </section>
-        <section class="row links-editions">
-            <div class="col-8 footer-links">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, odit tempore, necessitatibus 
-                        ipsum totam animi eveniet et voluptatem culpa iusto id obcaecati dolores nesciunt, 
-                        illo dignissimos eligendi. Sapiente, iure nobis!</p>
-            </div>
-            <div class="col-4 footer-editions">
-                <p>Lorem ipsum dolor</p>
+        <section class="row links-editions pt-1">
+            <h2 class="d-none">heading</h2>
+            <ul class="info-list col-12 col-lg-7 mb-1">
+                <li class="d-inline mr-1 pr-1"><a href="#">About Us </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Corrections </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Contact Us </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Editorial Guidelines </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Advertise </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Copyright </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Terms & Conditions </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Privacy Policy </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Cookie Policy </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Terms of Sale </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Archive </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Announcements </a></li>
+                <li class="d-inline mr-1 pr-1"><a href="#">Consent preferences </a></li>
+            </ul>
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-4 d-flex 
+                justify-content-start justify-content-lg-end">
+                <span class="font-weight-bold text-secondary">Editions:</span>
+                <ul class="editions-list px-2 mb-1">
+                    <li class="d-inline mr-1 pr-1"><a href="#">U.S. Edition</a></li>
+                    <li class="d-inline mr-1 pr-1"><a href="#">日本</a></li>
+                    <li class="d-inline mr-1 pr-1"><a href="#">한국</a></li>
+                    <li class="d-inline mr-1 pr-1"><a href="#">Pakistan</a></li>
+                    <li class="d-inline mr-1 pr-1"><a href="#">Polska</a></li>
+                    <li class="d-inline mr-1 pr-1"><a href="#">România</a></li>
+                </ul>
             </div>
         </section>
     </footer>
@@ -191,14 +1399,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
-
-
-
-
-
-
-
-
-
 
 </html>

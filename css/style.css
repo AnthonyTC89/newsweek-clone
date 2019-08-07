@@ -1,7 +1,194 @@
-body{
-    margin: 0 1rem;
+
+/* Extra small devices (phones, less than 768px) */
+.container{
+  max-width: 97%;
 }
-.header{
-    background-color: #F72210;
-    color: #FFF;
+.main-header {
+  font-size: 1.3rem;
+}
+.navbar-toggler-icon{
+  background-image: url("../images/hamburger_button.png");
+}
+.header-text a{
+  font-size: .7rem;
+}
+.bg-color01{
+  background-color: #C2D4D7;
+}
+.icon-search{
+  width: 2rem;
+  height: auto;
+}
+.logo{
+  width: 2rem;
+  height: 2rem;
+}
+.icon-slideshow{
+  width: 4rem;
+  height: 3rem;
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: .4rem;
+  line-height: 2.5rem;
+}
+.cover-back, .cover-front{
+  width: 170px;
+  height: 228px;
+}
+.cover-front{
+  left: 4rem;
+  top: 2rem;
+}
+
+.subscribe-img{
+  flex: none;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-left: -3.5rem;
+}
+.newsletter-part img{
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+.copyright-social{
+  width: 95%;
+  height: auto;
+}
+.footer-social, .info-list, .editions-list{
+  list-style: none;
+}
+
+.info-list li:last-child, .editions-list li:last-child{
+  border-right: none
+}
+.info-list li a, .editions-list li a{
+  color: #6C757D;
+  font-size: .8rem;
+}
+
+.social-icon{
+  width: 2rem;
+  height: auto;
+  filter: grayscale(100%);
+}
+.social-icon:hover{
+  filter: grayscale(0%);
+}
+.copyright{
+  font-size: .8rem;
+}
+
+/* Small devices (desktops, 576px and up) */
+@media (min-width: 576px){
+
+  .sponsor-part, .special-edition{
+      width: 50%;
+  }
+  .sign-up{
+    width: 45%;
+    height: auto;
+  }
+  .header-text a{
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) {
+
+  .main-header{
+    font-size: 2rem;
+  }
+  .subscribe-text{
+    width: 60%;
+    height: auto;
+  }
+  .newsletter-part img{
+    width: auto;
+    height: 30%;
+    
+  }
+  .subscribe-img{
+    flex: none;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 6rem;
+  }    
+  .info-list li, .editions-list li{
+    border-right: 1px solid #b3bbc2;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .main-header{
+    font-size: 5rem;
+  }
+
+  .header-text a{
+    font-size: 1.2rem;
+  }
+
+  .nav-item{
+    border-right: 1px solid #b3bbc2;
+    font-size: 1.2rem;
+  }
+
+  .nav-item:nth-child(9), .nav-item:last-child{
+    border-right: none;
+  }
+  
+  .search-input{
+    height: 1.5rem;
+    transition: width 0.4s ease-in-out;
+    width: 4rem;
+  }
+  
+  .search-input:focus{
+    width: 7rem;
+    outline:none;
+  }
+
+  .search-input:focus::placeholder{
+    opacity: 0;
+  }
+
+  .sponsor-part, .special-edition{
+      width: 100%;
+  }
+
+  .sign-up{
+    width: 90%;
+    height: auto;
+  }
+  
+  .all-features{
+    margin-top: -1%;
+  }
+
+  .subscribe-text{
+    width: 55%;
+    height: auto;
+
+  }
+
+  .subscribe{
+    width: auto;
+    height: 90%;
+  }
+
+  .newsletter-part img{
+    height: auto;
+    width:50%;
+  }
+}
+
+/* Extra Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) {
+  .subscribe-text{
+    width: 60%;
+    height: auto;
+  }
 }
