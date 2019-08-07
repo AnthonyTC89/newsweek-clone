@@ -1,7 +1,7 @@
 
 /* Extra small devices (phones, less than 768px) */
-.header{
-  justify-content: start;
+.container{
+  max-width: 97%;
 }
 .main-header {
   font-size: 1.3rem;
@@ -41,13 +41,6 @@
   top: 2rem;
 }
 
-.subscribe, .newsletter-part{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .subscribe-img{
   flex: none;
   padding-top: 1rem;
@@ -65,21 +58,8 @@
 }
 .footer-social, .info-list, .editions-list{
   list-style: none;
-  margin-bottom: .3rem;
-}
-.editions-list{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.footer-social li {
-  display: inline;
 }
 
-.info-list li, .editions-list li{
-  display: inline;
-  padding-right: .5rem;
-  margin-right: .5rem;
-}
 .info-list li:last-child, .editions-list li:last-child{
   border-right: none
 }
@@ -99,12 +79,10 @@
 .copyright{
   font-size: .8rem;
 }
-.footer-editions{
-  justify-content: start;
-}
 
 /* Small devices (desktops, 576px and up) */
 @media (min-width: 576px){
+
   .sponsor-part, .special-edition{
       width: 50%;
   }
@@ -119,26 +97,9 @@
 
 /* Medium devices (desktops, 768px and up) */
 @media (min-width: 768px) {
+
   .main-header{
     font-size: 2rem;
-  }
-  .subscribe{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: start;
-    padding-top: 0; 
-    margin-left: 0;
-  }
-  .newsletter-part{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: start;
-    padding-top: 0; 
-    margin-left: 0;
   }
   .subscribe-text{
     width: 60%;
@@ -161,12 +122,9 @@
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .header{
-    justify-content: center;
-  }
+
   .main-header{
     font-size: 5rem;
-    justify-self: center;
   }
 
   .header-text a{
@@ -186,7 +144,6 @@
     height: 1.5rem;
     transition: width 0.4s ease-in-out;
     width: 4rem;
-    border:none;
   }
   
   .search-input:focus{
@@ -226,11 +183,6 @@
     height: auto;
     width:50%;
   }
-
-  .footer-editions{
-    justify-content: end;
-  }
-
 }
 
 /* Extra Large devices (desktops, 992px and up) */
