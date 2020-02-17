@@ -5,7 +5,7 @@
     Project Create with HTML, CSS and Bootstrap
     <br>
     <br>
-    <a href="https://github.com/AnthonyTC89/newsweek-clone/" target="_blank">Live Demo</a>
+    <a href="https://anthonytc89.github.io/newsweek-clone/" target="_blank">Live Demo</a>
     .
     <a href="https://github.com/AnthonyTC89/newsweek-clone/issues">Report Bug</a>
     ·
